@@ -5,7 +5,7 @@ export const useAxios = () => {
   const { user } = useAuthContext();
 
   const instance = axios.create({
-    baseURL: "http://countryfinder-production.up.railway.app/auth",
+    baseURL: "https://countryfinder-production.up.railway.app/auth",
     headers: {
       Authorization: user?.token ? `Bearer ${user.token}` : "",
     },
