@@ -32,7 +32,7 @@ export function CarouselContainer() {
 
   return (
     <div
-      className="relative overflow-hidden w-full h-full md:pt-20 md:pb-20 pt-20   bg-background text-text font-lexend"
+      className="relative overflow-hidden w-full h-full md:pt-20 md:pb-20 pt-20 pb-16  bg-background text-text font-lexend"
       id="related"
       ref={sectionRef}
     >

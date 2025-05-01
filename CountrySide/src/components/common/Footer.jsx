@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="bg-background text-text py-16 px-6 md:px-40">
+    <footer className="bg-background text-text md:py-16 px-6 md:px-40">
       <div className="flex flex-col md:flex-row justify-between gap-10 text-sm">
         {/* LOGO + CONTACT */}
         <div>
