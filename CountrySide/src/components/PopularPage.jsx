@@ -45,13 +45,13 @@ export const PopularPage = () => {
 
       {/* Most Popular Countries */}
       <section className="mb-16">
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex sm:flex-row flex-col sm:items-center  justify-between mb-4">
           <h2 className="text-xl md:text-2xl font-semibold fadeinup-item">
             Most Popular Countries
           </h2>
           <Link
             href="/countries"
-            className="text-primary fadeinup-item flex  text-sm md:text-base font-medium hover:underline hover:text-accent transition"
+            className="text-primary fadeinup-item flex mt-1 sm:mt-0  text-sm md:text-base font-medium hover:underline hover:text-accent transition"
           >
             See all countries <ChevronsRight />
           </Link>
