@@ -107,22 +107,22 @@ export const learnTopics = [
   {
     title: "World Photos",
     image: "/images/worldphotos.png",
-    href: "/topics/photos",
+    href: "/countries",
   },
   {
     title: "Population",
     image: "/images/population.png",
-    href: "/topics/population",
+    href: "/countries",
   },
   {
     title: "Currency",
     image: "/images/currency.png",
-    href: "/topics/currency",
+    href: "/countries",
   },
   {
     title: "Maps",
     image: "/images/maps.png",
-    href: "/topics/maps",
+    href: "/countries",
   },
 ];
 
