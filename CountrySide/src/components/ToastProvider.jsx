@@ -32,7 +32,7 @@ export function ToastProvider({ children }) {
           open={open}
           duration={3000}
           onOpenChange={setOpen}
-          className={`w-[360px] rounded-md bg-card border border-primary  p-4 shadow-xl fixed bottom-6 right-6 z-[9999] ${colorStyles}`}
+          className={`md:w-[360px] w-full rounded-md bg-card border border-primary  p-4 shadow-xl fixed bottom-6 right-6 z-[9999] ${colorStyles}`}
         >
           <div className="flex items-start justify-between">
             <p className="font-semibold text-primary">{title}</p>

@@ -62,7 +62,7 @@ export const Header = () => {
     >
       {/* Logo */}
       <Link href={"/"}>
-        <div className="w-[120px] h-auto flex items-center justify-center">
+        <div className="md:w-[120px] w-[100px] h-auto flex items-center justify-center">
           <Image src={logo} alt="CountryFinder" />
         </div>
       </Link>
